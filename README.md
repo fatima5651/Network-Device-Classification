@@ -79,3 +79,32 @@ Here’s an example of how your simulated network data should look:
 | 192.168.1.15 | Apple iPhone iOS 17  | Mobile      | Mobile Device | 2                 |
 | 192.168.1.20 | Linux Ubuntu 22.04   | Server      | Server        | 5                 |
 
+### Sample JSON Format Here’s an example of how your simulated network data should look:
+json
+[
+  {
+    "ip": "192.168.1.10",
+    "ttl": 128,
+    "window_size": 8192,
+    "banner": "Microsoft Windows 10",
+    "open_ports": [80, 443],
+    "public": false
+  },
+  {
+    "ip": "192.168.1.15",
+    "ttl": 64,
+    "window_size": 65535,
+    "banner": "Apple iPhone iOS 17",
+    "open_ports": [22, 443],
+    "public": false
+  },
+  {
+    "ip": "192.168.1.20",
+    "ttl": 255,
+    "window_size": 5840,
+    "banner": "Linux Ubuntu 22.04",
+    "open_ports": [22, 3306],
+    "public": true
+  }
+]
+
