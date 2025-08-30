@@ -19,7 +19,7 @@ Analyze network data to fingerprint devices and highlight the most important sec
 A table classifying devices with OS, type, role, and criticality score. The output is saved as `network_classification.csv` and displayed in the console.
 
 ## Installation
-
+Clone the repository and install the required dependencies:
 ```bash
 git clone https://github.com/fatima5651/Network-Device-Classification.git
 cd Network-Device-Classification
