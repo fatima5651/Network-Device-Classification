@@ -30,8 +30,8 @@ pip install -r requirements.txt
 python network_device_classification.py
 ```
 **Choose a mode** when prompted:  
-       **1**. Scan your local network (requires `python-nmap`)  
-       **2**. Use simulated network data (JSON file)
+    **1**: Scan your local network (requires `python-nmap`)  
+    **2**: Use simulated network data (JSON file)
 Follow the prompts to provide necessary inputs (e.g., JSON file path).
 
 ### Output
