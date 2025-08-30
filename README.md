@@ -9,6 +9,9 @@ Device Classification Tool that can analyze network data and highlight the most 
 - **Role Assignment**: Determines device roles (e.g., Work Laptop, Mobile Device)
 - **Criticality Scoring**: Assigns risk scores (1-5) based on Sensitivity of services, Device type, and External exposure
 
+## Expected Outcome
+A table classifying devices with OS, type, role, and criticality score.
+ 
 ## Installation
 
 ```bash
