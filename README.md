@@ -45,31 +45,48 @@ Here’s an example of how your simulated network data should look:
 
 ```json
 [
-  {
-    "ip": "192.168.1.10",
-    "ttl": 128,
-    "window_size": 8192,
-    "banner": "Microsoft Windows 10",
-    "open_ports": [80, 443],
-    "public": false
-  },
-  {
-    "ip": "192.168.1.15",
-    "ttl": 64,
-    "window_size": 65535,
-    "banner": "Apple iPhone iOS 17",
-    "open_ports": [22, 443],
-    "public": false
-  },
-  {
-    "ip": "192.168.1.20",
-    "ttl": 255,
-    "window_size": 5840,
-    "banner": "Linux Ubuntu 22.04",
-    "open_ports": [22, 3306],
-    "public": true
-  }
+    {
+        "ip": "192.168.1.10",
+        "ttl": 128,
+        "mac": "00:17:F2:89:A1:CD",
+        "open_ports": [22, 80, 443],
+        "banner": "Microsoft Windows 10",
+        "public": false
+    },
+    {
+        "ip": "192.168.1.15",
+        "ttl": 64,
+        "mac": "A4:5E:60:23:DA:45",
+        "open_ports": [80, 443],
+        "banner": "Apple iPhone iOS 17",
+        "public": false
+    },
+    {
+        "ip": "192.168.1.20",
+        "ttl": 255,
+        "mac": "00:1B:54:13:F2:4C",
+        "open_ports": [22, 3306, 443],
+        "banner": "Linux Ubuntu 22.04",
+        "public": true
+    },
+    {
+        "ip": "192.168.1.30",
+        "ttl": 64,
+        "mac": "F0:18:98:4D:2A:6B",
+        "open_ports": [22, 3389],
+        "banner": "Windows Server 2019",
+        "public": true
+    },
+    {
+        "ip": "192.168.1.50",
+        "ttl": 128,
+        "mac": "B8:27:EB:1A:5D:61",
+        "open_ports": [80, 443],
+        "banner": "Raspberry Pi",
+        "public": false
+    }
 ]
+
 ```
 **Note:** Place your JSON file in the same folder as the script or provide the full path when prompted.
 ### Example Output
