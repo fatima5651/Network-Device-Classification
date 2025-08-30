@@ -35,14 +35,11 @@ python network_device_classification.py
 Follow the prompts to provide necessary inputs (e.g., JSON file path).
 
 ### Output
-
 The tool outputs:
-
 - A **classified device table** in the console (nicely formatted using `tabulate`)  
 - A **CSV file** named `network_classification.csv` in the current folder
 
 ### Sample JSON Format
-
 Here’s an example of how your simulated network data should look:
 
 ```json
@@ -75,7 +72,6 @@ Here’s an example of how your simulated network data should look:
 ```
 **Note:** Place your JSON file in the same folder as the script or provide the full path when prompted.
 ### Example Output
-
 | IP           | OS                   | Device Type | Role          | Criticality Score |
 |--------------|----------------------|-------------|---------------|-------------------|
 | 192.168.1.10 | Microsoft Windows 10 | Windows PC  | Work Laptop   | 3                 |
