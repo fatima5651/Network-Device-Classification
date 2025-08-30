@@ -1,0 +1,6 @@
+IP,OS,Device Type,Role,Criticality Score
+192.168.1.10,Windows,Laptop,Personal Laptop,4
+192.168.1.15,Linux/Unix,Mobile,Mobile Device,2
+192.168.1.20,Windows,Router/Switch,Network Device,3
+192.168.1.30,Linux/Unix,Laptop,Personal Laptop,5
+192.168.1.50,Windows,Mobile,Mobile Device,2
