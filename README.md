@@ -12,8 +12,8 @@ Analyze network data to fingerprint devices and highlight the most important sec
 - **Role Assignment**: Determines device roles (e.g., Work Laptop, Mobile Device, Server).  
 - **Criticality Scoring**: Assigns risk scores (1–5) based on sensitivity of services, device type, and external exposure.  
 - **Interactive Modes**:  
-  1. Scan your own network using Nmap (requires `python-nmap`).  
-  2. Use simulated network data from a JSON file.
+    **1.** Scan your own network using Nmap (requires `python-nmap`).  
+    **2.** Use simulated network data from a JSON file.
 
 ## Expected Outcome
 A table classifying devices with OS, type, role, and criticality score. The output is saved as `network_classification.csv` and displayed in the console.
@@ -30,8 +30,8 @@ pip install -r requirements.txt
 python network_device_classification.py
 ```
 **Choose a mode** when prompted:  
-   - **1**: Scan your local network (requires `python-nmap`)  
-   - **2**: Use simulated network data (JSON file)
+    **1**: Scan your local network (requires `python-nmap`)  
+    **2**: Use simulated network data (JSON file)
 Follow the prompts to provide necessary inputs (e.g., JSON file path).
 
 ### Output
